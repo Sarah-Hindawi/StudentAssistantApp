@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Student Assistant</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="start">Start Alarm</string>
+    <string name="stopt">Stop Timer</string>
+    <string name="startt">Start Timer</string>
+    <string name="stop">Stop Alarm</string>
+    <string name="noteButton">Notes</string>
+    <string name="todolistButton">To-Do</string>
+    <string name="groceryButton">Grocery List</string>
+    <string name="timerButton">Timer</string>
+    <string name="alarmButton">Alarm</string>
+    <string name="assignmentsButton">Assignments</string>
+    <string name="at">Timer at:</string>
+    <string name="after">Timer </string>
+    <string name="submit">Submit</string>
+    <string name="answer">answer</string>
+    <string name="result">0 / 0</string>
+    <string name="tv1">%d / 10</string>
+    <string name="tv2">%d + %d =?</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="newnote">New Note</string>
+    <string name="gradeButton">Grade Calculator</string>
+    <string name="gradeHint">Grade</string>
+    <string name="weightHint">Weight</string>
+    <string name="calculate">Calculate</string>
+    <string name="msg">Message</string>
+    <string name="grade">Grade(%)</string>
+    <string name="Weight">Weight</string>
+    <string name="Yourgrade">Your final grade is: \n \t &#160; &#160; &#160; %.2f</string>
+    <string name="letters">Please do not use letters </string>
+    <string name="complete">Great job! You completed your tasks</string>
+</resources>

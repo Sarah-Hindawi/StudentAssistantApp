@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".StopAlarmActivity">
+
+
+    <include
+        android:id="@+id/tb"
+        layout="@layout/tool_bar" />
+
+    <TextView
+
+        android:id="@+id/results"
+
+        android:layout_width="117dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginLeft="140dp"
+
+        android:layout_marginTop="4dp"
+
+        android:layout_marginBottom="120dp"
+
+        android:text="@string/result"
+
+        android:textAppearance="@android:style/TextAppearance.Large"
+
+        android:textColor="#004072"
+
+        android:textSize="20sp" />
+
+
+    <TextView
+
+        android:id="@+id/question"
+
+        android:layout_width="173dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="3dp"
+
+        android:textAppearance="@android:style/TextAppearance.Large"
+
+        android:textColor="#C4000000"
+
+        android:textSize="30sp" />
+
+
+    <EditText
+
+        android:id="@+id/answer"
+
+        android:layout_width="167dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="100dp"
+
+        android:layout_marginTop="10dp"
+
+        android:ems="10"
+
+        android:gravity="center"
+
+        android:hint="@string/answer"
+
+        android:inputType="textPersonName" />
+
+
+    <Button
+
+        android:id="@+id/submitButton"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="10dp"
+
+        android:background="#659C9C"
+
+        android:onClick="onClickSubmit"
+
+        android:text="@string/submit"
+
+        android:textColor="#004072" />
+
+
+</LinearLayout>

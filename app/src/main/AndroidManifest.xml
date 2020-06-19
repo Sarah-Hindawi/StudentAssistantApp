@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.myapplication">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/check"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/check"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name=".TimerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".StopAlarmActivity" />
+        <activity
+            android:name=".TimerActivity"
+            android:label="@string/timerButton"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GradeActivity"
+            android:label="@string/gradeButton"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ListingtodoActivity"
+            android:label="@string/todolistButton"
+            android:parentActivityName=".ListingtodoActivity" />
+        <activity
+            android:name=".AssignmentsAdayActivity"
+            android:label="@string/assignmentsButton" />
+        <activity
+            android:name=".AssignmentsActivity"
+            android:label="@string/assignmentsButton"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AlarmActivity"
+            android:label="@string/alarmButton"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ToDoListActivity"
+            android:label="@string/todolistButton" />
+        <activity
+            android:name=".NoteContentsActivity"
+            android:label="@string/note"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".AddNoteActivity"
+            android:label="@string/newnote"
+            android:parentActivityName=".NoteContentsActivity" />
+        <activity
+            android:name=".NotesActivity"
+            android:label="@string/noteButton"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
